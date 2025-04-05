@@ -32,13 +32,13 @@
 
 .social_icons a {
   margin-right: 15px;
-  color: #ffffff; /* Bright white for visibility */
+  color: #ffffff; 
   font-size: 22px;
   transition: color 0.3s ease;
 }
 
 .social_icons a:hover {
-  color: #ff9800; /* Highlight on hover */
+  color: #ff9800; 
 }
 
 .footer_bottom {

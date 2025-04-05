@@ -18,7 +18,7 @@
 }
 
 .addButton {
-  background: linear-gradient(135deg, #4f46e5, #3b82f6); /* Indigo to Blue */
+  background: linear-gradient(135deg, #4f46e5, #3b82f6); 
   color: #ffffff;
   padding: 12px 28px;
   font-size: 16px;
@@ -31,7 +31,7 @@
 }
 
 .addButton:hover {
-  background: linear-gradient(135deg, #4338ca, #2563eb); /* Darker gradient on hover */
+  background: linear-gradient(135deg, #4338ca, #2563eb);
   transform: translateY(-3px);
   box-shadow: 0 8px 16px rgba(37, 99, 235, 0.4);
 }

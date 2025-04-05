@@ -75,7 +75,6 @@
   background-color: #0056b3;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .container {
     flex-direction: column;
