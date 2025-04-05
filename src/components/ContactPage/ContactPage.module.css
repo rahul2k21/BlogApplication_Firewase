@@ -1,0 +1,88 @@
+.contactPage {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.contactInfo {
+  flex: 1;
+  padding: 40px;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.contactInfo h2 {
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.contactInfo p {
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+
+.infoGroup p {
+  margin-bottom: 8px;
+}
+
+.contactForm {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  padding: 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  transition: border-color 0.3s;
+}
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.contactForm button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contactForm button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .contactInfo,
+  .contactForm {
+    padding: 30px 20px;
+  }
+}

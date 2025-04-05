@@ -1,0 +1,107 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  padding: 15px 25px;
+  position: relative;
+  top: 0;
+  z-index: 100;
+  flex-wrap: wrap;
+}
+
+.navbar_brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+  flex: 1;
+}
+
+/* Center the nav links */
+.navbar_links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex: 2;
+  gap: 20px;
+}
+
+.navbar_links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbar_links li a:hover {
+  color: #00bcd4;
+}
+
+/* Right-aligned buttons */
+.navbar_buttons {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.btn {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #00bcd4;
+  padding: 6px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #00bcd4;
+  color: #111;
+}
+
+.signup {
+  background-color: #00bcd4;
+  color: #111;
+}
+
+/* Hamburger button */
+.navbar_toggle {
+  display: none;
+  font-size: 24px;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar_links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: #222;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .navbar_links.active {
+    display: flex;
+  }
+
+  .navbar_toggle {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+  }
+
+  .navbar_buttons {
+    display: none; /* Hide on mobile, or stack below if desired */
+  }
+}
