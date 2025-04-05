@@ -10,20 +10,3 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-
-
-
-  ------ All About This Blog Application ----
-
-  
-Start App: npm run dev
-
-Authentication: Firebase (You cannot delete, add, or edit a blog without logging in)
-
-Login ID: rahul123@gmail.com
-
-Password: 123456
-
-Deployed Link: https://blog-application-firewase-fa45.vercel.app/
-
-Responsive: Works on desktop, mobile, and tablet devices
