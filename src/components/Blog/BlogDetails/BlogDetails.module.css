@@ -1,0 +1,54 @@
+.blogDetails {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 24px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.title {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #222;
+}
+
+.coverImage {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 24px;
+}
+
+.description {
+  font-size: 1.1rem;
+  padding: 0 8px;
+}
+
+.notFound {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 1.5rem;
+  color: #888;
+}
+
+
+.backButton {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.backButton:hover {
+  background-color: #e0e0e0;
+}

@@ -8,87 +8,104 @@ import { getAuth,createUserWithEmailAndPassword ,signInWithEmailAndPassword,Goog
 const dummyBlogs = [
   {
     id: 1,
-    title: "First Blog Post",
+    title: "Exploring the Magic of Morning Routines",
     coverImage: "https://picsum.photos/seed/blog1/600/400",
-    description: "This is a long description for the first blog post...",
+    description:
+      "Discover how a powerful morning routine can set the tone for your entire day.",
     content: "Full content of the first blog post goes here...",
   },
   {
     id: 2,
-    title: "Second Blog Post",
+    title: "The Power of Consistency in Daily Habits",
     coverImage: "https://picsum.photos/seed/blog2/600/400",
-    description: "Second blog's summary appears here...",
+    description:
+      "Small daily habits compound into massive success—here’s how to stay consistent.",
     content: "This is the complete write-up of the second blog post...",
   },
   {
     id: 3,
-    title: "Third Blog Post",
+    title: "Mindful Tech: Balancing Screens and Sanity",
     coverImage: "https://picsum.photos/seed/blog3/600/400",
-    description: "A brief look into the third blog topic...",
+    description:
+      "Tips and tools to stay productive and sane in a digital-first world.",
     content: "Here's everything about the third blog post...",
   },
   {
     id: 4,
-    title: "Fourth Blog Post",
+    title: "The Beginner’s Guide to Journaling",
     coverImage: "https://picsum.photos/seed/blog4/600/400",
-    description: "Intro to the fourth blog in the series...",
+    description:
+      "Unleash your thoughts, goals, and creativity through journaling.",
     content: "Detailed explanation in the fourth blog post...",
   },
   {
     id: 5,
-    title: "Fifth Blog Post",
+    title: "Why Everyone is Talking About Plant-Based Living",
     coverImage: "https://picsum.photos/seed/blog5/600/400",
-    description: "Summary of the fifth blog post topic...",
+    description: "Explore the benefits of switching to a plant-based diet.",
     content: "Expanded content for the fifth blog post...",
   },
   {
     id: 6,
-    title: "Sixth Blog Post",
+    title: "A Deep Dive into Minimalist Lifestyles",
     coverImage: "https://picsum.photos/seed/blog6/600/400",
-    description: "What's inside the sixth blog...",
+    description: "Less clutter, more clarity—what minimalism really means.",
     content: "The sixth blog brings you new insights...",
   },
   {
     id: 7,
-    title: "Seventh Blog Post",
+    title: "7 Productivity Hacks You Need to Try Today",
     coverImage: "https://picsum.photos/seed/blog7/600/400",
-    description: "Explore this seventh blog snippet...",
+    description: "Get more done in less time with these practical hacks.",
     content: "All details of the seventh blog post...",
   },
   {
     id: 8,
-    title: "Eighth Blog Post",
+    title: "Mastering the Art of Saying No",
     coverImage: "https://picsum.photos/seed/blog8/600/400",
-    description: "The eighth blog post discusses...",
+    description:
+      "Boundaries matter. Learn how to protect your time and energy.",
     content: "This blog dives deep into the topic...",
   },
   {
     id: 9,
-    title: "Ninth Blog Post",
+    title: "Digital Detox: Reclaiming Your Focus",
     coverImage: "https://picsum.photos/seed/blog9/600/400",
-    description: "Highlights from the ninth post...",
+    description:
+      "Your brain deserves a break—why and how to take a digital detox.",
     content: "Ninth blog post elaborates on the theme...",
   },
   {
     id: 10,
-    title: "Tenth Blog Post",
+    title: "How Travel Changes Your Perspective",
     coverImage: "https://picsum.photos/seed/blog10/600/400",
-    description: "Tenth blog preview and thoughts...",
+    description: "From culture to creativity, how new places spark new ideas.",
     content: "Everything you need to know in this post...",
   },
   {
     id: 11,
-    title: "First Blog Post",
-    coverImage: "https://picsum.photos/seed/blog1/600/400",
-    description: "This is a long description for the first blog post...",
+    title: "The Science Behind Better Sleep",
+    coverImage: "https://picsum.photos/seed/blog11/600/400",
+    description:
+      "Simple science-backed strategies to improve your sleep quality.",
     content: "Full content of the first blog post goes here...",
   },
   {
     id: 12,
-    title: "Second Blog Post",
-    coverImage: "https://picsum.photos/seed/blog2/600/400",
-    description: "Second blog's summary appears here...",
+    title: "Financial Freedom: Getting Started with Budgeting",
+    coverImage: "https://picsum.photos/seed/blog12/600/400",
+    description:
+      "Money management 101—how to start saving smart and spending wisely.",
     content: "This is the complete write-up of the second blog post...",
+  },
+  {
+    id: 13,
+    title: "Unlocking the Secrets of the Digital Nomad Life",
+    coverImage: "https://picsum.photos/seed/blog13/600/400",
+    description:
+      "A glimpse into the exciting lifestyle of remote work and world travel...",
+    content:
+      "From choosing the right destinations to managing time zones and productivity, this blog explores what it truly means to live as a digital nomad in 2025.",
   },
 ];
 
