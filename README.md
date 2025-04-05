@@ -13,8 +13,6 @@ If you are developing a production application, we recommend using TypeScript an
 
 
 
-
-
   ------ All About This Blog Application ----
 
   
